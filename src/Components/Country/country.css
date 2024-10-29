@@ -1,0 +1,21 @@
+.box{
+    border: 2px solid red;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 20px;
+  }
+
+  .box img{
+    width: 180px;
+    height: 100px;
+  }
+
+  .visited{
+    background-color: bisque;
+  }
+
+  .button-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
